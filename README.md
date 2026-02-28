@@ -36,7 +36,7 @@ There is much more inside the official Redis documentation. https://redis.io/doc
 
 This release is based on [Redis](https://github.com/redis/redis). It has passed all the standard tests.
 
-Due to the many functional differences between windows and linux,There are still unknown issues/bugs, in particular there is a bug to work properly in certain scenarios.
+Due to the many functional differences between windows and linux, there are still unknown issues/bugs, in particular there is a bug to work properly in certain scenarios.
 If you download and install it, you accept the following agreement by default：
 
 NO LIABILITY FOR DAMAGES
@@ -57,14 +57,14 @@ In no event shall the author of this Software be liable for any damages whatsoev
 
 
 
-## Default configrations
+## Default configurations
 
 	save ""
 	maxmemory 512mb
 	appendonly no
 	maxmemory-policy allkeys-lru
 
-- if you want to modify parameters,it is recommanded you edit the redis.conf file
+- if you want to modify parameters, it is recommended you edit the redis.conf file
 
 ## Support latest RedisJson 
 
